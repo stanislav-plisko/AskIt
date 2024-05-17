@@ -3,6 +3,6 @@ class Question < ApplicationRecord
     validates :body, presence: true, length: { minimum: 2 }
 
     def formatted_created_at
-        created_at.strftime('%Y-%m-%dT%H:%M:%S')
+        created_at.strftime('%Y-%m-%d %H:%M:%S')
     end
 end
