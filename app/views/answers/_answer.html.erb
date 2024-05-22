@@ -1,4 +1,5 @@
 <%= tag.article class: 'mb-3 card', id: dom_id(answer) do %>
+  <% answer = answer.decorate %>
   <article class="mb-3 card" id="answer_<%= answer.id %>">
     <div class="card-body">
       <section class="card-text">

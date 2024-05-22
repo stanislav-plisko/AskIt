@@ -28,6 +28,8 @@ gem "jbuilder"
 
 gem 'kaminari', '~> 1.2'
 
+gem 'draper'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

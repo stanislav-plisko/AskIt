@@ -1,4 +1,9 @@
 module ApplicationHelper
+
+    def pagination(obj)
+        raw(paginate obj) if obj.total_pages > 1 
+    end
+
     def nav_tab(title, url, options = {})
         current_page = options.delete :current_page
     
